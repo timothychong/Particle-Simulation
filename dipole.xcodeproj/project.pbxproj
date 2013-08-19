@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CAD4CC914C6802900E5B7B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAD4CC814C6802900E5B7B3 /* UIKit.framework */; };
+		1CAD4CCB14C6802900E5B7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAD4CCA14C6802900E5B7B3 /* Foundation.framework */; };
+		1CAD4CCD14C6802900E5B7B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAD4CCC14C6802900E5B7B3 /* CoreGraphics.framework */; };
+		1CAD4CD314C6802900E5B7B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CAD4CD114C6802900E5B7B3 /* InfoPlist.strings */; };
+		1CAD4CD514C6802900E5B7B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD4CD414C6802900E5B7B3 /* main.m */; };
+		1CAD4CD914C6802900E5B7B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD4CD814C6802900E5B7B3 /* AppDelegate.m */; };
+		1CAD4CDC14C6802900E5B7B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD4CDB14C6802900E5B7B3 /* ViewController.m */; };
+		1CAD4CDF14C6802900E5B7B3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CAD4CDD14C6802900E5B7B3 /* ViewController.xib */; };
+		1CAD4CE714C6807100E5B7B3 /* screen.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD4CE614C6807100E5B7B3 /* screen.m */; };
+		1CAD4CEE14C6859C00E5B7B3 /* particle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAD4CED14C6859C00E5B7B3 /* particle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CAD4CC414C6802900E5B7B3 /* dipole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dipole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAD4CC814C6802900E5B7B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1CAD4CCA14C6802900E5B7B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1CAD4CCC14C6802900E5B7B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1CAD4CD014C6802900E5B7B3 /* dipole-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dipole-Info.plist"; sourceTree = "<group>"; };
+		1CAD4CD214C6802900E5B7B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CAD4CD414C6802900E5B7B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CAD4CD614C6802900E5B7B3 /* dipole-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dipole-Prefix.pch"; sourceTree = "<group>"; };
+		1CAD4CD714C6802900E5B7B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1CAD4CD814C6802900E5B7B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1CAD4CDA14C6802900E5B7B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1CAD4CDB14C6802900E5B7B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1CAD4CDE14C6802900E5B7B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1CAD4CE514C6807100E5B7B3 /* screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = screen.h; sourceTree = "<group>"; };
+		1CAD4CE614C6807100E5B7B3 /* screen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = screen.m; sourceTree = "<group>"; };
+		1CAD4CEC14C6859C00E5B7B3 /* particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = particle.h; sourceTree = "<group>"; };
+		1CAD4CED14C6859C00E5B7B3 /* particle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = particle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CAD4CC114C6802900E5B7B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAD4CC914C6802900E5B7B3 /* UIKit.framework in Frameworks */,
+				1CAD4CCB14C6802900E5B7B3 /* Foundation.framework in Frameworks */,
+				1CAD4CCD14C6802900E5B7B3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CAD4CB914C6802900E5B7B3 = {
+			isa = PBXGroup;
+			children = (
+				1CAD4CCE14C6802900E5B7B3 /* dipole */,
+				1CAD4CC714C6802900E5B7B3 /* Frameworks */,
+				1CAD4CC514C6802900E5B7B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CAD4CC514C6802900E5B7B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CAD4CC414C6802900E5B7B3 /* dipole.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CAD4CC714C6802900E5B7B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CAD4CC814C6802900E5B7B3 /* UIKit.framework */,
+				1CAD4CCA14C6802900E5B7B3 /* Foundation.framework */,
+				1CAD4CCC14C6802900E5B7B3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CAD4CCE14C6802900E5B7B3 /* dipole */ = {
+			isa = PBXGroup;
+			children = (
+				1CAD4CD714C6802900E5B7B3 /* AppDelegate.h */,
+				1CAD4CD814C6802900E5B7B3 /* AppDelegate.m */,
+				1CAD4CDA14C6802900E5B7B3 /* ViewController.h */,
+				1CAD4CDB14C6802900E5B7B3 /* ViewController.m */,
+				1CAD4CDD14C6802900E5B7B3 /* ViewController.xib */,
+				1CAD4CEC14C6859C00E5B7B3 /* particle.h */,
+				1CAD4CED14C6859C00E5B7B3 /* particle.m */,
+				1CAD4CE514C6807100E5B7B3 /* screen.h */,
+				1CAD4CE614C6807100E5B7B3 /* screen.m */,
+				1CAD4CCF14C6802900E5B7B3 /* Supporting Files */,
+			);
+			path = dipole;
+			sourceTree = "<group>";
+		};
+		1CAD4CCF14C6802900E5B7B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CAD4CD014C6802900E5B7B3 /* dipole-Info.plist */,
+				1CAD4CD114C6802900E5B7B3 /* InfoPlist.strings */,
+				1CAD4CD414C6802900E5B7B3 /* main.m */,
+				1CAD4CD614C6802900E5B7B3 /* dipole-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CAD4CC314C6802900E5B7B3 /* dipole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAD4CE214C6802900E5B7B3 /* Build configuration list for PBXNativeTarget "dipole" */;
+			buildPhases = (
+				1CAD4CC014C6802900E5B7B3 /* Sources */,
+				1CAD4CC114C6802900E5B7B3 /* Frameworks */,
+				1CAD4CC214C6802900E5B7B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dipole;
+			productName = dipole;
+			productReference = 1CAD4CC414C6802900E5B7B3 /* dipole.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CAD4CBB14C6802900E5B7B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1CAD4CBE14C6802900E5B7B3 /* Build configuration list for PBXProject "dipole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1CAD4CB914C6802900E5B7B3;
+			productRefGroup = 1CAD4CC514C6802900E5B7B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CAD4CC314C6802900E5B7B3 /* dipole */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CAD4CC214C6802900E5B7B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAD4CD314C6802900E5B7B3 /* InfoPlist.strings in Resources */,
+				1CAD4CDF14C6802900E5B7B3 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CAD4CC014C6802900E5B7B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAD4CD514C6802900E5B7B3 /* main.m in Sources */,
+				1CAD4CD914C6802900E5B7B3 /* AppDelegate.m in Sources */,
+				1CAD4CDC14C6802900E5B7B3 /* ViewController.m in Sources */,
+				1CAD4CE714C6807100E5B7B3 /* screen.m in Sources */,
+				1CAD4CEE14C6859C00E5B7B3 /* particle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1CAD4CD114C6802900E5B7B3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAD4CD214C6802900E5B7B3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CAD4CDD14C6802900E5B7B3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAD4CDE14C6802900E5B7B3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CAD4CE014C6802900E5B7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1CAD4CE114C6802900E5B7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CAD4CE314C6802900E5B7B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dipole/dipole-Prefix.pch";
+				INFOPLIST_FILE = "dipole/dipole-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1CAD4CE414C6802900E5B7B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dipole/dipole-Prefix.pch";
+				INFOPLIST_FILE = "dipole/dipole-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CAD4CBE14C6802900E5B7B3 /* Build configuration list for PBXProject "dipole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAD4CE014C6802900E5B7B3 /* Debug */,
+				1CAD4CE114C6802900E5B7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAD4CE214C6802900E5B7B3 /* Build configuration list for PBXNativeTarget "dipole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAD4CE314C6802900E5B7B3 /* Debug */,
+				1CAD4CE414C6802900E5B7B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CAD4CBB14C6802900E5B7B3 /* Project object */;
+}
